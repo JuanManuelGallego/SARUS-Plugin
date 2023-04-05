@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:fadeScrollbars="false">
+
+    <LinearLayout
+        android:id="@+id/layout_Principal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_nav"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00BCD4"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_button"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/app_name" />
+
+            <Button
+                android:id="@+id/btn_3D"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/threeDMap" />
+
+            <Button
+                android:id="@+id/btn_livefeed"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/livefeed" />
+
+            <Button
+                android:id="@+id/btn_MissionControl"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/missionControl" />
+
+            <Button
+                android:id="@+id/btn_Unit"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/unit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_Buttons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/numberText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/addOne" />
+
+            <EditText
+                android:id="@+id/in_GPS"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:hint="@string/GPS"
+                android:inputType="textPersonName"
+                android:text="@string/coords" />
+
+            <Button
+                android:id="@+id/btn_marker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/marker" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_3D"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/threeDMap"
+                android:textSize="34sp" />
+
+            <EditText
+                android:id="@+id/in_GPS_Model"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:hint="@string/GPS"
+                android:inputType="textPersonName"
+                android:text="@string/coords" />
+
+            <EditText
+                android:id="@+id/in_URL"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:ems="10"
+                android:hint="@string/model_file"
+                android:inputType="textUri" />
+
+            <Button
+                android:id="@+id/btn_https"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/create_model" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_LiveFeed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/livefeed"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/liveText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/liveFeedDescription"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_MissionControl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/missionControl"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/btn_geoFence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ExtractGeoFence" />
+
+            <Button
+                android:id="@+id/btn_sendCoT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/SendCoT" />
+
+            <Button
+                android:id="@+id/btn_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home" />
+
+            <Button
+                android:id="@+id/btn_waypoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/waypoint" />
+
+            <TextView
+                android:id="@+id/debugText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="debug"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_Unit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/unit"
+                android:textSize="34sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

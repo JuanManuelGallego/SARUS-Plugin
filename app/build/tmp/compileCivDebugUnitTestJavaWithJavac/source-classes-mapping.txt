@@ -1,0 +1,2 @@
+com/atakmap/android/test/ExampleTest.java
+ com.atakmap.android.test.ExampleTest

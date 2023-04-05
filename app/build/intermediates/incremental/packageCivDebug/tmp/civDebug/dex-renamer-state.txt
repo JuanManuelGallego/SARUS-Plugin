@@ -1,0 +1,10 @@
+#Wed Apr 05 12:22:36 CDT 2023
+base.2=C\:\\Users\\Juanma\\OneDrive - USherbrooke\\Documents\\ATAK\\atak-civ\\plugin-examples\\plugintemplate\\app\\build\\intermediates\\dex\\civDebug\\mergeProjectDexCivDebug\\7\\classes.dex
+path.2=7/classes.dex
+base.1=C\:\\Users\\Juanma\\OneDrive - USherbrooke\\Documents\\ATAK\\atak-civ\\plugin-examples\\plugintemplate\\app\\build\\intermediates\\dex\\civDebug\\mergeProjectDexCivDebug\\1\\classes.dex
+path.1=1/classes.dex
+base.0=C\:\\Users\\Juanma\\OneDrive - USherbrooke\\Documents\\ATAK\\atak-civ\\plugin-examples\\plugintemplate\\app\\build\\intermediates\\dex\\civDebug\\mergeProjectDexCivDebug\\0\\classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=0/classes.dex

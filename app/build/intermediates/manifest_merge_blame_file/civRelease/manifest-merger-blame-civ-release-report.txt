@@ -1,0 +1,52 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.atakmap.android.plugintemplate.plugin"
+4    android:versionCode="1680710269" >
+5
+6    <uses-sdk android:minSdkVersion="24" />
+6-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml
+7
+8    <application
+8-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:6:5-27:19
+9        android:allowBackup="false"
+9-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:7:9-36
+10        android:description="@string/app_desc"
+10-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:10:9-47
+11        android:extractNativeLibs="true"
+11-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:11:9-41
+12        android:icon="@drawable/sarus"
+12-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:8:9-39
+13        android:label="@string/app_name"
+13-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:9:9-41
+14        android:theme="@style/AppTheme" >
+14-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:12:9-40
+15        <meta-data
+16            android:name="plugin-api"
+16-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:13:20-45
+17            android:value="com.atakmap.app@4.5.1.CIV" />
+17-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:13:46-79
+18        <meta-data
+18-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:14:9-78
+19            android:name="app_desc"
+19-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:14:20-43
+20            android:value="@string/app_desc" />
+20-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:14:44-76
+21
+22        <!-- allow for plugin discovery -->
+23        <activity
+23-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:18:8-24:19
+24            android:name="com.atakmap.app.component"
+24-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:18:18-58
+25            android:exported="true" >
+25-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:19:12-35
+26            <intent-filter android:label="@string/app_name" >
+26-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:21:12-23:28
+26-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:21:27-59
+27                <action android:name="com.atakmap.app.component" />
+27-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:22:15-66
+27-->C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:22:23-63
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>

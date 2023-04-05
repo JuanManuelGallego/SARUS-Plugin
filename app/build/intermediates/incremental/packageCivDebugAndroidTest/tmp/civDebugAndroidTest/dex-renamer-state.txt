@@ -1,0 +1,7 @@
+#Wed Apr 05 10:42:38 CDT 2023
+base.1=C\:\\Users\\Juanma\\OneDrive - USherbrooke\\Documents\\ATAK\\atak-civ\\plugin-examples\\plugintemplate\\app\\build\\intermediates\\dex\\civDebugAndroidTest\\mergeProjectDexCivDebugAndroidTest\\2\\classes.dex
+path.1=2/classes.dex
+base.0=C\:\\Users\\Juanma\\OneDrive - USherbrooke\\Documents\\ATAK\\atak-civ\\plugin-examples\\plugintemplate\\app\\build\\intermediates\\dex\\civDebugAndroidTest\\mergeProjectDexCivDebugAndroidTest\\0\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=0/classes.dex
