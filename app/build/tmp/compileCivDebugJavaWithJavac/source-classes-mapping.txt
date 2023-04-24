@@ -10,6 +10,7 @@ com/atakmap/android/plugintemplate/plugin/HTTPSRequest.java
  com.atakmap.android.plugintemplate.plugin.HTTPSRequest
 com/atakmap/android/plugintemplate/PluginTemplateDropDownReceiver.java
  com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver
+ com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver$1
  com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver$VehicleModelData
 com/atakmap/android/plugintemplate/plugin/PluginTemplateTool.java
  com.atakmap.android.plugintemplate.plugin.PluginTemplateTool

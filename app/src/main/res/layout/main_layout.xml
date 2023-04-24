@@ -68,19 +68,6 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/numberText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="0"
-                android:textSize="24sp" />
-
-            <Button
-                android:id="@+id/btn_number"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/addOne" />
-
             <EditText
                 android:id="@+id/in_GPS"
                 android:layout_width="match_parent"
@@ -172,16 +159,22 @@
                 android:textSize="34sp" />
 
             <Button
+                android:id="@+id/btn_enable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enable"/>
+
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/start"/>
+
+            <Button
                 android:id="@+id/btn_geoFence"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/ExtractGeoFence" />
-
-            <Button
-                android:id="@+id/btn_sendCoT"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/SendCoT" />
 
             <Button
                 android:id="@+id/btn_home"
@@ -216,6 +209,27 @@
                 android:layout_height="wrap_content"
                 android:text="@string/unit"
                 android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/unit_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unit Name: "
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unit Status: "
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unit Battery: "
+                android:textSize="24sp" />
         </LinearLayout>
 
     </LinearLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SARUS 1.117</string>
+    <string name="app_name">SARUS 1.168</string>
     <string name="app_desc">Hello World</string>
     <string name="addOne">AddOne</string>
     <string name="marker">Add marker</string>
@@ -16,8 +16,9 @@
     <string name="downloadPath">SARUS</string>
     <string name="coords">45.378116888420536, -71.9254605491164</string>
     <string name="ExtractGeoFence">Extract GeoFence</string>
-    <string name="SendCoT">Broadcast CoT</string>
     <string name="home">Return Home</string>
     <string name="waypoint">Set Waypoint</string>
+    <string name="start">Start Mission</string>
+    <string name="enable">Enable Robot</string>
     <string name="liveFeedDescription">Aller à la fenêtre Video de ATAK. Créer un nouveau stream vidéo avec le protocole RTSP sur l\'adresse 192.168.100.155:8000/stream</string>
 </resources>

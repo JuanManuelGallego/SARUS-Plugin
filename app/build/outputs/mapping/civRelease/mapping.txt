@@ -3,83 +3,100 @@ com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver -> atakplugin.
     java.lang.String SHOW_PLUGIN -> b
     android.view.View SARUS_View -> c
     com.atakmap.android.maps.MapView mapView -> d
-    android.content.Context pluginContext -> e
-    android.widget.TextView numberText -> f
-    android.widget.TextView debugText -> g
-    int number -> h
-    com.atakmap.android.plugintemplate.plugin.HTTPSRequest httpsRequest -> i
-    android.widget.EditText in_gps -> j
-    android.widget.EditText in_gps_model -> k
-    android.widget.EditText in_url -> l
-    android.widget.LinearLayout layout_button -> m
-    android.widget.LinearLayout layout_3D -> n
-    android.widget.LinearLayout layout_LiveFeed -> o
-    android.widget.LinearLayout layout_MissionControl -> p
-    android.widget.LinearLayout layout_Unit -> q
-    java.util.Vector layouts -> r
-    java.io.File SARUSDownloadDirectory -> s
-    com.atakmap.android.geofence.monitor.GeoFenceManager geoFenceManager -> t
-    com.atakmap.android.maps.MapGroup rootGroup -> u
-    java.lang.String uuid -> v
-    com.atakmap.android.maps.Marker myMarker -> w
-    int RED -> x
-    int GREEN -> y
-    java.lang.String CIRCLE -> z
-    java.lang.String POLYLINE -> A
-    java.lang.String RECTANGLE -> B
-    95:204:void <init>(com.atakmap.android.maps.MapView,android.content.Context) -> <init>
-    208:209:void toast(java.lang.String) -> a
-    213:216:com.atakmap.coremap.maps.coords.GeoPoint extractGeoPoint(java.lang.String) -> b
-    221:227:java.lang.String extractCoords(com.atakmap.coremap.maps.coords.GeoPoint) -> a
-    232:241:java.lang.String extractCoords(com.atakmap.coremap.maps.coords.GeoPoint[]) -> a
-    246:253:java.lang.String extractGeoFenceType(com.atakmap.android.maps.Shape) -> a
-    259:302:java.lang.String extractGeoFenceData(com.atakmap.android.geofence.data.GeoFence) -> a
-    312:332:void sendCoT(com.atakmap.coremap.cot.event.CotDetail) -> a
-    336:343:com.atakmap.coremap.cot.event.CotDetail getSarusDetail(java.lang.String) -> c
-    349:349:void disposeImpl() -> disposeImpl
-    352:359:void selectLayout(android.widget.LinearLayout) -> a
-    362:377:void Create3DModel() -> a
-    380:381:void addOne() -> b
-    386:417:com.atakmap.android.maps.Marker createMarker() -> c
-    421:440:com.atakmap.android.maps.Marker createWaypoint() -> d
-    455:460:void updateMarker() -> e
-    463:467:java.lang.String getEndpoint() -> f
-    471:538:com.atakmap.coremap.cot.event.CotEvent createDefaultEvent(com.atakmap.android.maps.Marker) -> a
-    543:550:void sendCoTBroadcast() -> g
-    554:566:void sendGeoFenceCoT() -> h
-    570:577:void sendReturnHomeCoT() -> i
-    581:591:void sendWaypoint() -> j
-    598:608:void onReceive(android.content.Context,android.content.Intent) -> onReceive
-    612:612:void onDropDownSelectionRemoved() -> onDropDownSelectionRemoved
-    616:616:void onDropDownVisible(boolean) -> onDropDownVisible
-    620:620:void onDropDownSizeChanged(double,double) -> onDropDownSizeChanged
-    624:624:void onDropDownClose() -> onDropDownClose
-    374:374:void lambda$Create3DModel$12(com.atakmap.android.rubbersheet.data.create.AbstractCreationTask,java.util.List) -> a
-    201:201:void lambda$new$11(android.view.View) -> a
-    198:198:void lambda$new$10(android.view.View) -> b
-    195:195:void lambda$new$9(android.view.View) -> c
-    192:192:void lambda$new$8(android.view.View) -> d
-    189:189:void lambda$new$7(android.view.View) -> e
-    186:186:void lambda$new$6(android.view.View) -> f
-    183:183:void lambda$new$5(android.view.View) -> g
-    180:180:void lambda$new$4(android.view.View) -> h
-    177:177:void lambda$new$3(android.view.View) -> i
-    174:174:void lambda$new$2(android.view.View) -> j
-    171:171:void lambda$new$1(android.view.View) -> k
-    168:168:void lambda$new$0(android.view.View) -> l
-    82:83:void <clinit>() -> <clinit>
+    android.widget.TextView unitNameText -> e
+    android.widget.TextView unitStatusText -> f
+    android.widget.TextView unitBatteryText -> g
+    android.widget.TextView debugText -> h
+    android.widget.EditText in_gps -> i
+    android.widget.EditText in_gps_model -> j
+    android.widget.EditText in_url -> k
+    android.widget.LinearLayout layout_button -> l
+    android.widget.LinearLayout layout_3D -> m
+    android.widget.LinearLayout layout_LiveFeed -> n
+    android.widget.LinearLayout layout_MissionControl -> o
+    android.widget.LinearLayout layout_Unit -> p
+    java.util.Vector layouts -> q
+    java.io.File SARUSDownloadDirectory -> r
+    com.atakmap.android.geofence.monitor.GeoFenceManager geoFenceManager -> s
+    com.atakmap.android.maps.MapGroup rootGroup -> t
+    java.lang.String uuid -> u
+    com.atakmap.android.maps.Marker myMarker -> v
+    com.atakmap.comms.CotDispatcher externalDispatcher -> w
+    com.atakmap.comms.CotDispatcher internalDispatcher -> x
+    com.atakmap.comms.CotDispatcher myDispatcher -> y
+    int RED -> z
+    int GREEN -> A
+    java.lang.String CIRCLE -> B
+    java.lang.String POLYLINE -> C
+    java.lang.String RECTANGLE -> D
+    java.lang.String SERVER_NAME -> E
+    java.lang.String CALLSING -> F
+    java.lang.String UNIT_NAME -> G
+    java.lang.String UNIT_STATUS -> H
+    java.lang.String UNIT_BATTERY -> I
+    74:177:void <init>(com.atakmap.android.maps.MapView,android.content.Context) -> <init>
+    182:183:void toast(java.lang.String) -> b
+    187:192:com.atakmap.coremap.maps.coords.GeoPoint extractGeoPoint(java.lang.String) -> c
+    197:197:java.lang.String extractCoords(com.atakmap.coremap.maps.coords.GeoPoint) -> a
+    202:211:java.lang.String extractCoords(com.atakmap.coremap.maps.coords.GeoPoint[]) -> a
+    216:223:java.lang.String extractGeoFenceType(com.atakmap.android.maps.Shape) -> a
+    229:307:java.lang.String extractGeoFenceData(com.atakmap.android.geofence.data.GeoFence) -> a
+    313:332:void sendCoT(com.atakmap.coremap.cot.event.CotDetail) -> a
+    336:343:com.atakmap.coremap.cot.event.CotDetail getSarusDetail(java.lang.String) -> d
+    347:354:void selectLayout(android.widget.LinearLayout) -> a
+    358:360:void setUnitName(java.lang.String) -> e
+    364:366:void setUnitStatus(java.lang.String) -> f
+    370:372:void setUnitBattery(java.lang.String) -> g
+    377:377:void disposeImpl() -> disposeImpl
+    380:395:void create3DModel() -> a
+    400:426:com.atakmap.android.maps.Marker createMarker() -> b
+    430:449:com.atakmap.android.maps.Marker createWaypoint() -> c
+    464:469:void updateMarker() -> d
+    472:514:com.atakmap.coremap.cot.event.CotEvent createDefaultEvent(com.atakmap.android.maps.Marker) -> a
+    519:532:void sendGeoFenceCoT() -> e
+    536:547:void sendWaypoint() -> f
+    551:558:void sendCommand(java.lang.String) -> a
+    565:575:void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    579:579:void onDropDownSelectionRemoved() -> onDropDownSelectionRemoved
+    583:583:void onDropDownVisible(boolean) -> onDropDownVisible
+    587:587:void onDropDownSizeChanged(double,double) -> onDropDownSizeChanged
+    591:591:void onDropDownClose() -> onDropDownClose
+    392:392:void lambda$create3DModel$12(com.atakmap.android.rubbersheet.data.create.AbstractCreationTask,java.util.List) -> a
+    149:149:void lambda$new$11(android.view.View) -> a
+    148:148:void lambda$new$10(android.view.View) -> b
+    147:147:void lambda$new$9(android.view.View) -> c
+    146:146:void lambda$new$8(android.view.View) -> d
+    145:145:void lambda$new$7(android.view.View) -> e
+    144:144:void lambda$new$6(android.view.View) -> f
+    143:143:void lambda$new$5(android.view.View) -> g
+    142:142:void lambda$new$4(android.view.View) -> h
+    141:141:void lambda$new$3(android.view.View) -> i
+    140:140:void lambda$new$2(android.view.View) -> j
+    139:139:void lambda$new$1(android.view.View) -> k
+    138:138:void lambda$new$0(android.view.View) -> l
+    59:59:void access$000(com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver,java.lang.String) -> a
+    59:59:void access$100(com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver,java.lang.String) -> b
+    59:59:void access$200(com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver,java.lang.String) -> c
+    59:59:void access$300(com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver,java.lang.String) -> d
+    61:61:void <clinit>() -> <clinit>
+com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver$1 -> atakplugin.PluginTemplate.b:
+    com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver this$0 -> a
+    160:160:void <init>(com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver,java.lang.String) -> <init>
+    163:167:com.atakmap.comms.CommsMapComponent$ImportResult toItemMetadata(com.atakmap.android.maps.MapItem,com.atakmap.coremap.cot.event.CotEvent,com.atakmap.coremap.cot.event.CotDetail) -> toItemMetadata
+    172:173:boolean toCotDetail(com.atakmap.android.maps.MapItem,com.atakmap.coremap.cot.event.CotEvent,com.atakmap.coremap.cot.event.CotDetail) -> toCotDetail
 com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver$VehicleModelData -> atakplugin.PluginTemplate.a$a:
     java.lang.String uid -> a
     com.atakmap.android.vehicle.model.VehicleModelInfo info -> b
-    630:649:void <init>(com.atakmap.android.vehicle.model.VehicleModelInfo,com.atakmap.coremap.maps.coords.GeoPointMetaData,java.lang.String) -> <init>
-    652:652:java.lang.String getUID() -> getUID
-com.atakmap.android.plugintemplate.PluginTemplateMapComponent -> atakplugin.PluginTemplate.b:
+    597:616:void <init>(com.atakmap.android.vehicle.model.VehicleModelInfo,com.atakmap.coremap.maps.coords.GeoPointMetaData,java.lang.String) -> <init>
+    619:619:java.lang.String getUID() -> getUID
+com.atakmap.android.plugintemplate.PluginTemplateMapComponent -> atakplugin.PluginTemplate.c:
     java.lang.String TAG -> a
     android.content.Context pluginContext -> b
     com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver ddr -> c
-    14:14:void <init>() -> <init>
-    25:36:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView) -> onCreate
-    40:41:void onDestroyImpl(android.content.Context,com.atakmap.android.maps.MapView) -> onDestroyImpl
+    com.atakmap.android.cot.detail.CotDetailHandler sarusCotDetailHandler -> d
+    17:17:void <init>() -> <init>
+    32:41:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView) -> onCreate
+    45:46:void onDestroyImpl(android.content.Context,com.atakmap.android.maps.MapView) -> onDestroyImpl
 com.atakmap.android.plugintemplate.plugin.BuildConfig -> com.atakmap.android.plugintemplate.plugin.a:
     boolean DEBUG -> a
     java.lang.String APPLICATION_ID -> b
@@ -134,25 +151,22 @@ com.atakmap.android.plugintemplate.plugin.R$dimen -> com.atakmap.android.plugint
     int fontSize -> fontSize
     void <init>() -> <init>
 com.atakmap.android.plugintemplate.plugin.R$drawable -> com.atakmap.android.plugintemplate.plugin.d$c:
-    int btn_gray -> btn_gray
-    int new_dark_button_bg -> new_dark_button_bg
-    int new_dark_button_disabled -> new_dark_button_disabled
-    int new_dark_button_selected -> new_dark_button_selected
     int sarus -> sarus
     void <init>() -> <init>
 com.atakmap.android.plugintemplate.plugin.R$id -> com.atakmap.android.plugintemplate.plugin.d$d:
     int ScrollView -> ScrollView
+    int battery -> battery
     int btn_3D -> btn_3D
     int btn_MissionControl -> btn_MissionControl
     int btn_Unit -> btn_Unit
     int btn_button -> btn_button
+    int btn_enable -> btn_enable
     int btn_geoFence -> btn_geoFence
     int btn_home -> btn_home
     int btn_https -> btn_https
     int btn_livefeed -> btn_livefeed
     int btn_marker -> btn_marker
-    int btn_number -> btn_number
-    int btn_sendCoT -> btn_sendCoT
+    int btn_start -> btn_start
     int btn_waypoint -> btn_waypoint
     int debugText -> debugText
     int in_GPS -> in_GPS
@@ -166,11 +180,12 @@ com.atakmap.android.plugintemplate.plugin.R$id -> com.atakmap.android.plugintemp
     int layout_Unit -> layout_Unit
     int layout_nav -> layout_nav
     int liveText -> liveText
-    int numberText -> numberText
+    int status -> status
     int textView -> textView
     int textView2 -> textView2
     int textView3 -> textView3
     int textView4 -> textView4
+    int unit_name -> unit_name
     void <init>() -> <init>
 com.atakmap.android.plugintemplate.plugin.R$layout -> com.atakmap.android.plugintemplate.plugin.d$e:
     int main_layout -> main_layout
@@ -178,13 +193,13 @@ com.atakmap.android.plugintemplate.plugin.R$layout -> com.atakmap.android.plugin
 com.atakmap.android.plugintemplate.plugin.R$string -> com.atakmap.android.plugintemplate.plugin.d$f:
     int ExtractGeoFence -> ExtractGeoFence
     int GPS -> GPS
-    int SendCoT -> SendCoT
     int addOne -> addOne
     int app_desc -> app_desc
     int app_name -> app_name
     int coords -> coords
     int create_model -> create_model
     int downloadPath -> downloadPath
+    int enable -> enable
     int home -> home
     int liveFeedDescription -> liveFeedDescription
     int livefeed -> livefeed
@@ -192,6 +207,7 @@ com.atakmap.android.plugintemplate.plugin.R$string -> com.atakmap.android.plugin
     int menu -> menu
     int missionControl -> missionControl
     int model_file -> model_file
+    int start -> start
     int threeDMap -> threeDMap
     int toggle -> toggle
     int unit -> unit
