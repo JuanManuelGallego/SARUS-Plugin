@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.atakmap.android.plugintemplate.plugin"
-    android:versionCode="1681410050" >
+    package="com.atakmap.android.sarusplugin.plugin"
+    android:versionCode="1682461464" >
 
     <uses-sdk android:minSdkVersion="24" />
 

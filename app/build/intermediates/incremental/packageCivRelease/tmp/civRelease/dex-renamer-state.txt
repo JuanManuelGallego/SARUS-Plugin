@@ -1,4 +1,4 @@
-#Thu Apr 13 16:02:58 CDT 2023
+#Tue Apr 25 18:40:42 CDT 2023
 base.0=C\:\\Users\\Juanma\\OneDrive - USherbrooke\\Documents\\ATAK\\atak-civ\\plugin-examples\\plugintemplate\\app\\build\\intermediates\\dex\\civRelease\\mergeDexCivRelease\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

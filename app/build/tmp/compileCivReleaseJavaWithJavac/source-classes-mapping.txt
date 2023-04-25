@@ -1,16 +1,16 @@
-com/atakmap/android/plugintemplate/plugin/PluginTemplateLifecycle.java
- com.atakmap.android.plugintemplate.plugin.PluginTemplateLifecycle
-com/atakmap/android/plugintemplate/PluginTemplateMapComponent.java
- com.atakmap.android.plugintemplate.PluginTemplateMapComponent
-com/atakmap/android/plugintemplate/plugin/PluginNativeLoader.java
- com.atakmap.android.plugintemplate.plugin.PluginNativeLoader
-com/atakmap/android/plugintemplate/plugin/BuildConfig.java
- com.atakmap.android.plugintemplate.plugin.BuildConfig
-com/atakmap/android/plugintemplate/plugin/HTTPSRequest.java
- com.atakmap.android.plugintemplate.plugin.HTTPSRequest
-com/atakmap/android/plugintemplate/PluginTemplateDropDownReceiver.java
- com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver
- com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver$1
- com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver$VehicleModelData
-com/atakmap/android/plugintemplate/plugin/PluginTemplateTool.java
- com.atakmap.android.plugintemplate.plugin.PluginTemplateTool
+com/atakmap/android/sarus/SARUSPluginDropDownReceiver.java
+ com.atakmap.android.sarus.SARUSPluginDropDownReceiver
+ com.atakmap.android.sarus.SARUSPluginDropDownReceiver$1
+ com.atakmap.android.sarus.SARUSPluginDropDownReceiver$VehicleModelData
+com/atakmap/android/sarus/plugin/SARUSPluginTool.java
+ com.atakmap.android.sarus.plugin.SARUSPluginTool
+com/atakmap/android/sarus/plugin/HTTPSRequest.java
+ com.atakmap.android.sarus.plugin.HTTPSRequest
+com/atakmap/android/sarus/plugin/PluginNativeLoader.java
+ com.atakmap.android.sarus.plugin.PluginNativeLoader
+com/atakmap/android/sarus/SARUSPluginMapComponent.java
+ com.atakmap.android.sarus.SARUSPluginMapComponent
+com/atakmap/android/sarus/plugin/SARUSPluginLifecycle.java
+ com.atakmap.android.sarus.plugin.SARUSPluginLifecycle
+com/atakmap/android/sarusplugin/plugin/BuildConfig.java
+ com.atakmap.android.sarusplugin.plugin.BuildConfig

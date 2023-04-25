@@ -1,4 +1,4 @@
-com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver -> atakplugin.PluginTemplate.a:
+com.atakmap.android.sarus.SARUSPluginDropDownReceiver -> atakplugin.sarusplugin.a:
     java.lang.String TAG -> a
     java.lang.String SHOW_PLUGIN -> b
     android.view.View SARUS_View -> c
@@ -40,28 +40,28 @@ com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver -> atakplugin.
     197:197:java.lang.String extractCoords(com.atakmap.coremap.maps.coords.GeoPoint) -> a
     202:211:java.lang.String extractCoords(com.atakmap.coremap.maps.coords.GeoPoint[]) -> a
     216:223:java.lang.String extractGeoFenceType(com.atakmap.android.maps.Shape) -> a
-    229:307:java.lang.String extractGeoFenceData(com.atakmap.android.geofence.data.GeoFence) -> a
-    313:332:void sendCoT(com.atakmap.coremap.cot.event.CotDetail) -> a
-    336:343:com.atakmap.coremap.cot.event.CotDetail getSarusDetail(java.lang.String) -> d
-    347:354:void selectLayout(android.widget.LinearLayout) -> a
-    358:360:void setUnitName(java.lang.String) -> e
-    364:366:void setUnitStatus(java.lang.String) -> f
-    370:372:void setUnitBattery(java.lang.String) -> g
-    377:377:void disposeImpl() -> disposeImpl
-    380:395:void create3DModel() -> a
-    400:426:com.atakmap.android.maps.Marker createMarker() -> b
-    430:449:com.atakmap.android.maps.Marker createWaypoint() -> c
-    464:469:void updateMarker() -> d
-    472:514:com.atakmap.coremap.cot.event.CotEvent createDefaultEvent(com.atakmap.android.maps.Marker) -> a
-    519:532:void sendGeoFenceCoT() -> e
-    536:547:void sendWaypoint() -> f
-    551:558:void sendCommand(java.lang.String) -> a
-    565:575:void onReceive(android.content.Context,android.content.Intent) -> onReceive
-    579:579:void onDropDownSelectionRemoved() -> onDropDownSelectionRemoved
-    583:583:void onDropDownVisible(boolean) -> onDropDownVisible
-    587:587:void onDropDownSizeChanged(double,double) -> onDropDownSizeChanged
-    591:591:void onDropDownClose() -> onDropDownClose
-    392:392:void lambda$create3DModel$12(com.atakmap.android.rubbersheet.data.create.AbstractCreationTask,java.util.List) -> a
+    229:266:java.lang.String extractGeoFenceData(com.atakmap.android.geofence.data.GeoFence) -> a
+    271:287:void sendCoT(com.atakmap.coremap.cot.event.CotDetail) -> a
+    291:298:com.atakmap.coremap.cot.event.CotDetail getSarusDetail(java.lang.String) -> d
+    302:309:void selectLayout(android.widget.LinearLayout) -> a
+    313:315:void setUnitName(java.lang.String) -> e
+    319:321:void setUnitStatus(java.lang.String) -> f
+    325:327:void setUnitBattery(java.lang.String) -> g
+    332:332:void disposeImpl() -> disposeImpl
+    335:350:void create3DModel() -> a
+    355:381:com.atakmap.android.maps.Marker createMarker() -> b
+    385:404:com.atakmap.android.maps.Marker createWaypoint() -> c
+    419:424:void updateMarker() -> d
+    427:469:com.atakmap.coremap.cot.event.CotEvent createDefaultEvent(com.atakmap.android.maps.Marker) -> a
+    474:486:void sendGeoFenceCoT() -> e
+    490:502:void sendWaypoint() -> f
+    506:513:void sendCommand(java.lang.String) -> a
+    520:530:void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    534:534:void onDropDownSelectionRemoved() -> onDropDownSelectionRemoved
+    538:538:void onDropDownVisible(boolean) -> onDropDownVisible
+    542:542:void onDropDownSizeChanged(double,double) -> onDropDownSizeChanged
+    546:546:void onDropDownClose() -> onDropDownClose
+    347:347:void lambda$create3DModel$12(com.atakmap.android.rubbersheet.data.create.AbstractCreationTask,java.util.List) -> a
     149:149:void lambda$new$11(android.view.View) -> a
     148:148:void lambda$new$10(android.view.View) -> b
     147:147:void lambda$new$9(android.view.View) -> c
@@ -74,50 +74,42 @@ com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver -> atakplugin.
     140:140:void lambda$new$2(android.view.View) -> j
     139:139:void lambda$new$1(android.view.View) -> k
     138:138:void lambda$new$0(android.view.View) -> l
-    59:59:void access$000(com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver,java.lang.String) -> a
-    59:59:void access$100(com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver,java.lang.String) -> b
-    59:59:void access$200(com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver,java.lang.String) -> c
-    59:59:void access$300(com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver,java.lang.String) -> d
+    59:59:void access$000(com.atakmap.android.sarus.SARUSPluginDropDownReceiver,java.lang.String) -> a
+    59:59:void access$100(com.atakmap.android.sarus.SARUSPluginDropDownReceiver,java.lang.String) -> b
+    59:59:void access$200(com.atakmap.android.sarus.SARUSPluginDropDownReceiver,java.lang.String) -> c
+    59:59:void access$300(com.atakmap.android.sarus.SARUSPluginDropDownReceiver,java.lang.String) -> d
     61:61:void <clinit>() -> <clinit>
-com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver$1 -> atakplugin.PluginTemplate.b:
-    com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver this$0 -> a
-    160:160:void <init>(com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver,java.lang.String) -> <init>
+com.atakmap.android.sarus.SARUSPluginDropDownReceiver$1 -> atakplugin.sarusplugin.b:
+    com.atakmap.android.sarus.SARUSPluginDropDownReceiver this$0 -> a
+    160:160:void <init>(com.atakmap.android.sarus.SARUSPluginDropDownReceiver,java.lang.String) -> <init>
     163:167:com.atakmap.comms.CommsMapComponent$ImportResult toItemMetadata(com.atakmap.android.maps.MapItem,com.atakmap.coremap.cot.event.CotEvent,com.atakmap.coremap.cot.event.CotDetail) -> toItemMetadata
     172:173:boolean toCotDetail(com.atakmap.android.maps.MapItem,com.atakmap.coremap.cot.event.CotEvent,com.atakmap.coremap.cot.event.CotDetail) -> toCotDetail
-com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver$VehicleModelData -> atakplugin.PluginTemplate.a$a:
+com.atakmap.android.sarus.SARUSPluginDropDownReceiver$VehicleModelData -> atakplugin.sarusplugin.a$a:
     java.lang.String uid -> a
     com.atakmap.android.vehicle.model.VehicleModelInfo info -> b
-    597:616:void <init>(com.atakmap.android.vehicle.model.VehicleModelInfo,com.atakmap.coremap.maps.coords.GeoPointMetaData,java.lang.String) -> <init>
-    619:619:java.lang.String getUID() -> getUID
-com.atakmap.android.plugintemplate.PluginTemplateMapComponent -> atakplugin.PluginTemplate.c:
+    552:571:void <init>(com.atakmap.android.vehicle.model.VehicleModelInfo,com.atakmap.coremap.maps.coords.GeoPointMetaData,java.lang.String) -> <init>
+    574:574:java.lang.String getUID() -> getUID
+com.atakmap.android.sarus.SARUSPluginMapComponent -> atakplugin.sarusplugin.c:
     java.lang.String TAG -> a
     android.content.Context pluginContext -> b
-    com.atakmap.android.plugintemplate.PluginTemplateDropDownReceiver ddr -> c
+    com.atakmap.android.sarus.SARUSPluginDropDownReceiver ddr -> c
     com.atakmap.android.cot.detail.CotDetailHandler sarusCotDetailHandler -> d
-    17:17:void <init>() -> <init>
-    32:41:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView) -> onCreate
-    45:46:void onDestroyImpl(android.content.Context,com.atakmap.android.maps.MapView) -> onDestroyImpl
-com.atakmap.android.plugintemplate.plugin.BuildConfig -> com.atakmap.android.plugintemplate.plugin.a:
-    boolean DEBUG -> a
-    java.lang.String APPLICATION_ID -> b
-    java.lang.String BUILD_TYPE -> c
-    java.lang.String FLAVOR -> d
-    int VERSION_CODE -> e
-    java.lang.String VERSION_NAME -> f
-    6:6:void <init>() -> <init>
-com.atakmap.android.plugintemplate.plugin.HTTPSRequest -> com.atakmap.android.plugintemplate.plugin.b:
+    15:15:void <init>() -> <init>
+    30:39:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView) -> onCreate
+    43:44:void onDestroyImpl(android.content.Context,com.atakmap.android.maps.MapView) -> onDestroyImpl
+com.atakmap.android.sarus.plugin.HTTPSRequest -> com.atakmap.android.sarus.plugin.a:
     8:8:void <init>() -> <init>
     13:41:void sendHTTPSRequest(java.lang.String) -> a
     44:77:void sendHTTPSRequestAsync(java.lang.String) -> b
     47:75:void lambda$sendHTTPSRequestAsync$0(java.lang.String) -> c
-com.atakmap.android.plugintemplate.plugin.PluginNativeLoader -> com.atakmap.android.plugintemplate.plugin.c:
+com.atakmap.android.sarus.plugin.PluginNativeLoader -> com.atakmap.android.sarus.plugin.b:
     java.lang.String TAG -> a
     java.lang.String ndl -> b
     10:10:void <init>() -> <init>
     22:33:void init(android.content.Context) -> a
     43:53:void loadLibrary(java.lang.String) -> a
     13:13:void <clinit>() -> <clinit>
-com.atakmap.android.plugintemplate.plugin.PluginTemplateLifecycle -> com.atakmap.android.plugintemplate.plugin.PluginTemplateLifecycle:
+com.atakmap.android.sarus.plugin.SARUSPluginLifecycle -> com.atakmap.android.sarus.plugin.SARUSPluginLifecycle:
     android.content.Context pluginContext -> a
     java.util.Collection overlays -> b
     com.atakmap.android.maps.MapView mapView -> c
@@ -131,7 +123,7 @@ com.atakmap.android.plugintemplate.plugin.PluginTemplateLifecycle -> com.atakmap
     88:90:void onResume() -> onResume
     94:96:void onStart() -> onStart
     100:102:void onStop() -> onStop
-com.atakmap.android.plugintemplate.plugin.PluginTemplateTool -> com.atakmap.android.plugintemplate.plugin.PluginTemplateTool:
+com.atakmap.android.sarus.plugin.SARUSPluginTool -> com.atakmap.android.sarus.plugin.SARUSPluginTool:
     android.content.Context context -> a
     22:24:void <init>(android.content.Context) -> <init>
     28:28:java.lang.String getDescription() -> getDescription
@@ -141,19 +133,27 @@ com.atakmap.android.plugintemplate.plugin.PluginTemplateTool -> com.atakmap.andr
     51:51:transapps.maps.plugin.tool.Tool getTool() -> getTool
     61:70:void onActivate(android.app.Activity,transapps.mapi.MapView,android.view.ViewGroup,android.os.Bundle,transapps.maps.plugin.tool.Tool$ToolCallback) -> onActivate
     74:74:void onDeactivate(transapps.maps.plugin.tool.Tool$ToolCallback) -> onDeactivate
-com.atakmap.android.plugintemplate.plugin.R -> com.atakmap.android.plugintemplate.plugin.d:
+com.atakmap.android.sarusplugin.plugin.BuildConfig -> atakplugin.sarusplugin.d:
+    boolean DEBUG -> a
+    java.lang.String APPLICATION_ID -> b
+    java.lang.String BUILD_TYPE -> c
+    java.lang.String FLAVOR -> d
+    int VERSION_CODE -> e
+    java.lang.String VERSION_NAME -> f
+    6:6:void <init>() -> <init>
+com.atakmap.android.sarusplugin.plugin.R -> atakplugin.sarusplugin.e:
     void <init>() -> <init>
-com.atakmap.android.plugintemplate.plugin.R$color -> com.atakmap.android.plugintemplate.plugin.d$a:
+com.atakmap.android.sarusplugin.plugin.R$color -> atakplugin.sarusplugin.e$a:
     int darker_gray -> darker_gray
     int white -> white
     void <init>() -> <init>
-com.atakmap.android.plugintemplate.plugin.R$dimen -> com.atakmap.android.plugintemplate.plugin.d$b:
+com.atakmap.android.sarusplugin.plugin.R$dimen -> atakplugin.sarusplugin.e$b:
     int fontSize -> fontSize
     void <init>() -> <init>
-com.atakmap.android.plugintemplate.plugin.R$drawable -> com.atakmap.android.plugintemplate.plugin.d$c:
+com.atakmap.android.sarusplugin.plugin.R$drawable -> atakplugin.sarusplugin.e$c:
     int sarus -> sarus
     void <init>() -> <init>
-com.atakmap.android.plugintemplate.plugin.R$id -> com.atakmap.android.plugintemplate.plugin.d$d:
+com.atakmap.android.sarusplugin.plugin.R$id -> atakplugin.sarusplugin.e$d:
     int ScrollView -> ScrollView
     int battery -> battery
     int btn_3D -> btn_3D
@@ -187,10 +187,10 @@ com.atakmap.android.plugintemplate.plugin.R$id -> com.atakmap.android.plugintemp
     int textView4 -> textView4
     int unit_name -> unit_name
     void <init>() -> <init>
-com.atakmap.android.plugintemplate.plugin.R$layout -> com.atakmap.android.plugintemplate.plugin.d$e:
+com.atakmap.android.sarusplugin.plugin.R$layout -> atakplugin.sarusplugin.e$e:
     int main_layout -> main_layout
     void <init>() -> <init>
-com.atakmap.android.plugintemplate.plugin.R$string -> com.atakmap.android.plugintemplate.plugin.d$f:
+com.atakmap.android.sarusplugin.plugin.R$string -> atakplugin.sarusplugin.e$f:
     int ExtractGeoFence -> ExtractGeoFence
     int GPS -> GPS
     int addOne -> addOne
@@ -213,7 +213,7 @@ com.atakmap.android.plugintemplate.plugin.R$string -> com.atakmap.android.plugin
     int unit -> unit
     int waypoint -> waypoint
     void <init>() -> <init>
-com.atakmap.android.plugintemplate.plugin.R$style -> com.atakmap.android.plugintemplate.plugin.d$g:
+com.atakmap.android.sarusplugin.plugin.R$style -> atakplugin.sarusplugin.e$g:
     int ATAKEditText -> ATAKEditText
     int ATAKPluginTheme -> ATAKPluginTheme
     int ATAKSpinner -> ATAKSpinner

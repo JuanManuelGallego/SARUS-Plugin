@@ -1,1 +1,1 @@
-com.atakmap.android.plugintemplate.plugin
+com.atakmap.android.sarusplugin.plugin

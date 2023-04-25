@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SARUS 1.168</string>
+    <string name="app_name">SARUS</string>
     <string name="app_desc">Hello World</string>
     <string name="addOne">AddOne</string>
     <string name="marker">Add marker</string>

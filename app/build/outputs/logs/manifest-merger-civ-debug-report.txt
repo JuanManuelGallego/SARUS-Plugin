@@ -13,7 +13,7 @@ INJECTED from C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plu
 INJECTED from C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-29:12
 INJECTED from C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:1:1-29:12
 	package
-		ADDED from C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:3:5-56
+		ADDED from C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml:3:5-53
 		INJECTED from C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Juanma\OneDrive - USherbrooke\Documents\ATAK\atak-civ\plugin-examples\plugintemplate\app\src\main\AndroidManifest.xml
 	xmlns:tools
