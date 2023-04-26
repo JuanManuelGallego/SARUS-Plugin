@@ -107,8 +107,7 @@ public class SARUSPluginDropDownReceiver extends DropDownReceiver implements
 
     /**************************** CONSTRUCTOR *****************************/
 
-    public SARUSPluginDropDownReceiver(final MapView mapView,
-                                       final Context context) {
+    public SARUSPluginDropDownReceiver(final MapView mapView, final Context context) {
         super(mapView);     
         this.mapView = mapView;
         context.setTheme(R.style.ATAKPluginTheme);
